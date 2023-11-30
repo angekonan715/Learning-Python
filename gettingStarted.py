@@ -48,3 +48,5 @@ print("different ways for the above statement")
 
 message = "eligible" if age >= 18 else "not eligible"
 print(message)
+
+# for loop statement
