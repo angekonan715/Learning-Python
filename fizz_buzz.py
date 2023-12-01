@@ -1,3 +1,4 @@
+
 def fizz_buzz(user_input):
     if (user_input % 3 == 0) and (user_input % 5 == 0):
         return "FizzBuzz"
@@ -8,4 +9,6 @@ def fizz_buzz(user_input):
     return user_input
 
 
-print(fizz_buzz(15))
+print("===========Play Fizz Buzz game=============")
+user_input = int(input("Enter an integer: "))
+print(fizz_buzz(user_input))
