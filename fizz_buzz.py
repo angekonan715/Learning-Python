@@ -10,5 +10,5 @@ def fizz_buzz(user_input):
 
 
 print("===========Play Fizz Buzz game=============")
-user_input = int(input("Enter an integer: "))
-print(fizz_buzz(user_input))
+user_input_1 = int(input("Enter an integer: "))
+print(fizz_buzz(user_input_1))
